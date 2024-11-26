@@ -22,7 +22,7 @@ elif user_action == "paper":
     else:
         print("Scissors cuts paper! You lose.")
 elif user_action == "scissors":
-    if ai_action == "paper":
+    if ai_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
